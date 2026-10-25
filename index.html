@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2775.1">
+  <style type="text/css">
+    body {background-color: #fffae9}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p3 {margin: 0.0px 0.0px 10.0px 0.0px; font: 15.0px 'PingFang TC'; color: #434220; -webkit-text-stroke: #434220}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b; background-color: #fff7d3}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b; min-height: 17.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'PingFang TC'; color: #865d30; -webkit-text-stroke: #865d30}
+    p.p10 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b; background-color: #ffffff; min-height: 17.0px}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Songti TC'; color: #2e352b; -webkit-text-stroke: #2e352b; background-color: #ffffff}
+    p.p13 {margin: 0.0px 0.0px 13.0px 0.0px; font: 13.0px 'PingFang TC'; color: #565d4d; -webkit-text-stroke: #565d4d; min-height: 18.0px}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b; background-color: #ffefb5}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'PingFang TC'; color: #1d5c5f; -webkit-text-stroke: #1d5c5f}
+    p.p17 {margin: 0.0px 0.0px 13.0px 0.0px; font: 13.0px 'PingFang TC'; color: #565d4d; -webkit-text-stroke: #565d4d}
+    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'PingFang TC'; color: #1d5c5f; -webkit-text-stroke: #1d5c5f; background-color: #ffffff}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'PingFang TC'; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #486237}
+    p.p20 {margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b; background-color: #ffefb5}
+    p.p21 {margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'PingFang TC'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p23 {margin: 0.0px 0.0px 20.0px 0.0px; font: 16.7px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'PingFang TC'; color: #565d4d; -webkit-text-stroke: #565d4d}
+    span.s1 {font: 13.0px 'PingFang TC'; font-kerning: none; background-color: #fff7cf}
+    span.s2 {font: 40.0px 'PingFang TC'; font-kerning: none; background-color: #f5bf41}
+    span.s3 {font: 40.0px 'PingFang TC'; font-kerning: none}
+    span.s4 {font-kerning: none; background-color: #f5bf41}
+    span.s5 {font-kerning: none}
+    span.s6 {font: 12.0px 'PingFang TC'; font-kerning: none; background-color: rgba(255, 253, 240, 0.96)}
+    span.s7 {font: 28.0px 'PingFang TC'; font-kerning: none}
+    span.s8 {font: 12.0px 'PingFang TC'; font-kerning: none; background-color: #ffffff}
+    span.s9 {font-kerning: none; background-color: #ffffff}
+    span.s10 {font: 19.0px 'PingFang TC'; font-kerning: none; background-color: #ffffff}
+    span.s11 {text-decoration: underline ; font-kerning: none; color: #1d5c5f; -webkit-text-stroke: 0px #1d5c5f}
+    span.s12 {font: 13.0px 'PingFang TC'; font-kerning: none; color: #1d5c5f; -webkit-text-stroke: 0px #1d5c5f}
+    span.s13 {font: 20.0px 'PingFang TC'; font-kerning: none; background-color: #ebf1ce}
+    span.s14 {font: 20.0px 'PingFang TC'; font-kerning: none}
+    span.s15 {font: 16.7px 'PingFang TC'; font-kerning: none; background-color: #ebf1ce}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 146.6px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td2 {width: 561.4px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td3 {width: 162.4px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td4 {width: 545.6px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td5 {width: 114.9px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td6 {width: 593.1px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td7 {width: 129.7px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td8 {width: 578.3px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td9 {width: 102.7px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+    td.td10 {width: 605.3px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #d4d1af #d4d1af #d4d1af #d4d1af; padding: 9.0px 9.0px 9.0px 9.0px}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><b>TOMATO GIRL × KINMEN</b><b></b></span></p>
+<h1 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 40.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b"><span class="s2"><b>蕃茄女孩的</b></span><span class="s3"><b><br>
+</b></span><span class="s2"><b>金門小旅行</b><b></b></span></h1>
+<p class="p3"><span class="s4">暖陽黃 × 嫩葉綠，帶著放假貼紙一起出發。</span><span class="s5"><br>
+</span><span class="s4">三天兩夜，慢慢走、好好吃。</span></p>
+<p class="p4"><span class="s5">10.31 六 — 11.02 一</span></p>
+<p class="p4"><span class="s5">金金禮寓・金湖</span></p>
+<p class="p4"><span class="s5">機車小旅行</span></p>
+<p class="p5"><span class="s5"><img src="file:///unknown.png" alt="unknown.png"></span></p>
+<p class="p6"><span class="s6"><b>週六 抵達</b><b></b></span></p>
+<p class="p6"><span class="s6"><b>週日 景點</b><b></b></span></p>
+<p class="p6"><span class="s6"><b>週一 老街</b><b></b></span></p>
+<p class="p6"><span class="s6"><b>找美食</b><b></b></span></p>
+<p class="p6"><span class="s6"><b>行前確認</b><b></b></span></p>
+<p class="p7"><span class="s5"></span><br></p>
+<p class="p8"><span class="s5">FOOD POCKET LIST</span></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 28.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b"><span class="s7"><b>現在想吃什麼？</b></span></h2>
+<p class="p10"><span class="s5">依地區、餐點類型或店名找選項。各區不一定能步行互達，請點地圖確認。</span></p>
+<p class="p11"><span class="s5"></span><br></p>
+<p class="p12"><span class="s5">所有地區</span></p>
+<p class="p12"><span class="s5">所有類型早餐餐點小吃飲料</span></p>
+<p class="p13"><span class="s5"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; font: 28.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b"><span class="s7"><b>出發前，確認幾件小事</b></span></h2>
+<p class="p14"><span class="s5">金湖住宿與金城商圈在不同區域。週一請在前往金城之前處理行李，避免看夕陽前還要折返飯店。</span></p>
+<p class="p6"><span class="s8"><b>週一行李寄放：機場優先，金城備選</b><b></b></span></p>
+<p class="p10"><span class="s9">建議動線：陽翟 → 金金禮寓取行李 → 機場寄放 → 金城午餐與採買 → 慈湖 → 機場取行李與搭機。這是可選方案，尚未預約；中午增加寄放手續與繞行，請縮短採買時間。大型行李請洽飯店或租車行安排運送，避免勉強載上機車。</span></p>
+<h3 style="margin: 0.0px 0.0px 7.0px 0.0px; font: 19.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b"><span class="s10"><b>金門機場・官方已確認有寄物服務</b><b></b></span></h3>
+<p class="p10"><span class="s9">位置：航廈3樓特產提貨區旁。服務時間配合機場開放營運時間。首3小時大／中／小櫃70／50／40元；之後每小時30／20／10元，不足單位仍以一單位計。若13:00寄放、18:00取回，共5小時，分別約130／90／60元；超過18:00就會再計一小時。實際空櫃、內部尺寸及付款方式需確認。</span></p>
+<p class="p10"><span class="s9">寄物服務電話：<a href="tel:0227253996"><span class="s11">02-2725-3996</span></a>；機場服務台：<a href="tel:082322381"><span class="s11">082-322381</span></a>。寄放時確認當天最晚取件時間，傍晚在原有還車與報到安排之外，再留10–15分鐘取行李。</span></p>
+<p class="p16"><span class="s9"><a href="https://www.kma.gov.tw/DefPage/index.aspx?MenuID=380">機場行李寄存專頁 ↗<span class="s12"></span></a></span></p>
+<p class="p17"><span class="s9">2026/10/24查詢；採官方2026/6/23更新的付費資訊。常見問答另列免費服務，兩頁資訊不一致，不預設免費服務仍可使用。</span></p>
+<h3 style="margin: 0.0px 0.0px 7.0px 0.0px; font: 19.0px 'PingFang TC Semibold'; color: #2e352b; -webkit-text-stroke: #2e352b"><span class="s10"><b>金城・需先確認據點</b><b></b></span></h3>
+<p class="p10"><span class="s9">lalalocker金城車站地區頁列大件（最長邊45公分以上）150元／日、小件（45公分以內）70元／日，須先預約。這是地區資訊頁，尚未核實11/2週一可訂店家與營業時間。確認能在看完夕陽後取件，才採用此方案；並另抓慈湖 → 金城取件 → 機場的折返時間。</span></p>
+<p class="p16"><span class="s9"><a href="https://www.lalalocker.com/zh-TW/places/kinmen/jincheng-station">查詢金城寄放據點 ↗<span class="s12"></span></a></span></p>
+<p class="p10"><span class="s9">金城車站寄物櫃：查到2014年的金門日報記載，現行收費、櫃子尺寸與取件期限未確認，不列為保證可用的選項。</span></p>
+<p class="p18"><span class="s5"><a href="https://www.kmdn.gov.tw/1117/1271/1274/246214/">金城車站舊資料 ↗<span class="s12"></span></a></span></p>
+<p class="p17"><span class="s5">勾選進度只儲存在目前瀏覽器；換裝置不會同步。</span></p>
+<p class="p6"><span class="s8"><b>想換個步調時的備案</b><b></b></span></p>
+<p class="p10"><span class="s9">小金門烈嶼：可替換週一老街與部分採買，建議留半日，不直接加滿原行程。</span></p>
+<p class="p10"><span class="s9">看電影：雨天或想休息時的選項，戲院、場次與票價待確認。</span></p>
+<p class="p10"><span class="s9">金城慢逛：不想跨區就減少老街停留，增加用餐與休息時間。鄉村市集與陳景蘭洋樓依先前偏好省略；週日不安排彌撒。</span></p>
+<p class="p19"><span class="s5">列印／另存 PDF</span></p>
+<p class="p16"><span class="s5"><a href="https://kinmen.travel/zh-tw">金門觀光旅遊網 ↗<span class="s12"></span></a></span></p>
+<p class="p16"><span class="s5"><a href="https://rwd.ezhotel.cloud/solishotel">住宿資訊 ↗<span class="s12"></span></a></span></p>
+<p class="p6"><span class="s8"><b>查看原 Word 內容存檔</b><b></b></span></p>
+<p class="p20"><span class="s5">以下保留原文供對照，其中「住宿尚未提供」及較晚取行李的安排已由上方整合版更新。原 Word 的段落與表格分列展示。</span></p>
+<p class="p21"><span class="s9">金門三天兩夜旅遊行程</span></p>
+<p class="p21"><span class="s9">2026 年 10 月 31 日 星期六 至 11 月 2 日 星期一</span></p>
+<p class="p21"><span class="s9">以一人旅行的舒適步調，安排週日晚間前完成主要聚落與戰地景點，週一保留老街、採買與慈湖夕陽。週六晚間抵達後，以入住、晚餐及休息為主。</span></p>
+<p class="p21"><span class="s9">旅程重點</span></p>
+<p class="p21"><span class="s9">航班與交通安排</span></p>
+<p class="p21"><span class="s9">去程暫列：10 月 31 日 松山 18:20 → 金門 19:25。</span><span class="s5"><br>
+</span><span class="s9">回程暫列：11 月 2 日 金門 19:15 → 松山 20:15。</span><span class="s5"><br>
+</span><span class="s9">以上依先前口述時間及晚間返程的安排整理，出發前請以電子機票確認上午或晚間與實際起降時間。</span></p>
+<p class="p21"><span class="s9">住宿地點尚未提供，行程以金城一帶作為出入動線的參考。時間表以租車、計程車或包車移動估算；若搭公車，需依班次減少景點。交通與住宿均屬待安排項目。</span></p>
+<p class="p21"><span class="s9">第一天 10 月 31 日 週六</span></p>
+<p class="p21"><span class="s9">第二天 11 月 1 日 週日</span></p>
+<p class="p21"><span class="s9">主要景點集中在今天。上午走金沙一帶，下午前往金城南側；午餐與跨區移動保留緩衝，實際參觀依當天體力及開放狀況調整。</span></p>
+<p class="p21"><span class="s9">當天的調整原則</span></p>
+<p class="p21"><span class="s9">優先保留您想看的五處景點。若上午延誤，可縮短午餐後休息與各處停留時間；若遇館舍提早停止入場，改以戶外聚落散步，避免趕路。各時段為建議安排，並非預約或已確認的入場時間。</span></p>
+<p class="p21"><span class="s9">已依偏好調整</span></p>
+<p class="p21"><span class="s9">週日不安排彌撒；鄉村市集與陳景蘭洋樓省略。小金門與看電影保留為替換選項，避免讓主要行程過滿。</span></p>
+<p class="p21"><span class="s9">第三天 11 月 2 日 週一</span></p>
+<p class="p21"><span class="s9">慈湖夕陽以不影響搭機為原則。若天候不佳、還車耗時或路況延誤，縮短賞景時間或直接前往機場。若回程實為上午 07:15，週一行程須全部取消並重新安排。</span></p>
+<p class="p21"><span class="s9">備用景點與活動</span></p>
+<p class="p21"><span class="s9">出發前確認事項</span></p>
+<p class="p21"><span class="s9">核對機票與報到期限；確認住宿、交通及行李寄放；查詢獅山砲操場次與各館舍公告；有意參加早彌撒時先聯絡教堂；準備防風外套、好走的鞋與行動電源。</span></p>
+<p class="p21"><span class="s9">景點參考：金門觀光旅遊網 https://kinmen.travel/zh-tw</span><span class="s5"><br>
+</span><span class="s9">獅山砲陣地 https://kinmen.travel/zh-tw/Travel/Attraction/1339</span><span class="s5"><br>
+</span><span class="s9">翟山坑道 https://www.taiwan.nps.gov.tw/home/zh-tw/attractions/21009.html</span><span class="s5"><br>
+</span><span class="s9">資料查閱日期：2026 年 10 月 18 日。開放與活動資訊以出發前官方公告為準。</span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p22"><span class="s9">日期</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p22"><span class="s9">行程主軸</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p22"><span class="s9">10 月 31 日 週六</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p22"><span class="s9">松山出發 → 金門抵達 → 入住與晚餐</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p22"><span class="s9">11 月 1 日 週日</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p22"><span class="s9">山后民俗文化村 → 獅山砲陣地 → 翟山坑道 → 水頭聚落 → 莒光樓</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p22"><span class="s9">11 月 2 日 週一</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p22"><span class="s9">選擇性早彌撒 → 沙美老街 → 陽翟老街 → 金城採買 → 慈湖夕陽 → 機場</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p22"><span class="s9">時間</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p22"><span class="s9">建議安排</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p22"><span class="s9">18:20–19:25</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p22"><span class="s9">松山飛往金門，航班待核對。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p22"><span class="s9">19:25–20:30</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p22"><span class="s9">領行李、安排接駁或取車，前往住宿處辦理入住。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p22"><span class="s9">20:30 之後</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p22"><span class="s9">依住宿附近店家營業情況用晚餐，簡單散步後休息。</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">建議時間</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">行程與停留重點</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">08:00–09:00</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">早餐、出發前往山后。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">09:00–10:10</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">山后民俗文化村：慢走閩南古厝巷弄，欣賞聚落建築與拍照。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">10:20–11:20</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">獅山砲陣地：參觀坑道與砲陣地。若想看操演，須先確認當日場次再微調前後順序。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">11:20–13:20</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">午餐、休息與移動至金城南側。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">13:20–14:20</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">翟山坑道：欣賞坑道及水道空間，注意階梯與地面濕滑。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">14:35–15:50</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">水頭聚落：欣賞古厝與僑鄉洋樓；館舍參觀依當日開放情形安排。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">16:10–17:00</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">莒光樓：參觀與周邊散步，若抵達較晚可縮短停留。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p22"><span class="s9">17:30 之後</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p22"><span class="s9">晚餐、回住宿處休息；有精神再於附近散步。</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">建議時間</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">行程與停留重點</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">07:00 左右 選擇參加</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">金門耶穌聖心天主堂早彌撒：有精神才參加。07:00 為您提出的候選時間，尚未確認，須先向教堂查詢。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">08:00–09:00</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">早餐、整理行李，確認退房與行李寄放方式。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">09:30–10:40</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">沙美老街：散步、看街景，依當天營業情形品嘗小吃。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">11:00–12:00</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">陽翟老街：慢走、拍照；若想更悠閒，可與沙美老街擇一。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">12:00–13:30</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">午餐與返回金城。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">13:30–15:40</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">金城商圈逛街、採買伴手禮，中途找地方坐下休息。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">15:40–16:30</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">取回行李，整理採買物品，確認還車與前往機場的時間。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">16:30–17:20</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">慈湖一帶散步與等候夕陽；依天氣、當日日落時間及交通狀況調整。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">17:20 起</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">離開慈湖，前往機場及辦理還車。暫以 18:00 前抵達航廈為規劃目標，仍須遵守航空公司報到規定。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p22"><span class="s9">19:15–20:15</span></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p22"><span class="s9">金門飛往松山，航班待核對。</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td9">
+        <p class="p22"><span class="s9">選項</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p22"><span class="s9">如何安排</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td9">
+        <p class="p22"><span class="s9">小金門 烈嶼</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p22"><span class="s9">適合作為半日替換行程；若確定前往，建議替換週一老街與部分採買時間，不直接加進原行程。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td9">
+        <p class="p22"><span class="s9">獨自看電影</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p22"><span class="s9">保留為雨天或想休息時的替代活動。戲院、場次與票價尚未確認，待出發前再選片訂票。</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td9">
+        <p class="p22"><span class="s9">金城商圈慢逛</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p22"><span class="s9">若不想跨區走老街，可增加金城散步、用餐與採買時間。</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p5"><span class="s5"><img src="file:///unknown.png" alt="unknown.png"></span></p>
+<p class="p23"><span class="s13"><b>今天也要好好玩！</b></span><span class="s14"><b><br>
+</b></span><span class="s15"><b>把時間留給喜歡的風景。</b><b></b></span></p>
+<p class="p24"><span class="s5">金門三日遊・個人旅行手冊</span></p>
+<p class="p24"><span class="s5">來源：金門三日遊_旅遊行程_2026-10-18_v01.docx，以及本次旅遊對話整理。</span></p>
+<p class="p24"><span class="s5">離線單檔版本 · 製作日期 2026/10/24 · 無需安裝或登入</span></p>
+</body>
+</html>
